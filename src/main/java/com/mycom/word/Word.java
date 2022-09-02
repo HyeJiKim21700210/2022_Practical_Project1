@@ -44,4 +44,6 @@ public class Word {
     public void setMeaning(String meaning) {
         this.meaning = meaning;
     }
+
+
 }
