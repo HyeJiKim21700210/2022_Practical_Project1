@@ -27,6 +27,10 @@ public class WordCRUD implements ICRUD{
 
     }
 
+    public void listAll(){
+
+    }
+
     @Override
     public int update(Object obj) {
         return 0;

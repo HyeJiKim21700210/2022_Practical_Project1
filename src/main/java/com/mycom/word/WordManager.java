@@ -38,6 +38,18 @@ public class WordManager {
             else if(menu == 1){
                 //list
             }
+            else if (menu == 2) {
+                //level list
+            }
+            else if(menu == 3){
+                //search
+            }
+            else if(menu == 5){
+                //
+            }
+            else if(menu == 6){
+                //remove
+            }
 
         }
     }

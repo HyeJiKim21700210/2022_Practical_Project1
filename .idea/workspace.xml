@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a57f8bc5-662c-470b-a90c-e1fbd6e43d23" name="Changes" comment="한글 제발 되어라">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="a57f8bc5-662c-470b-a90c-e1fbd6e43d23" name="Changes" comment="selectMenu print 수정">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycom/word/Word.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycom/word/Word.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycom/word/WordCRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycom/word/WordCRUD.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mycom/word/WordManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycom/word/WordManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -133,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662106563544</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="selectMenu print 수정">
+      <created>1662354497441</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1662354497441</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -153,7 +161,8 @@
     <MESSAGE value="CRUD 중 단어 추가 구현" />
     <MESSAGE value="영어깨짐" />
     <MESSAGE value="한글 제발 되어라" />
-    <option name="LAST_COMMIT_MESSAGE" value="한글 제발 되어라" />
+    <MESSAGE value="selectMenu print 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="selectMenu print 수정" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
