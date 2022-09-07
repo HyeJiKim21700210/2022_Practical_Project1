@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a57f8bc5-662c-470b-a90c-e1fbd6e43d23" name="Changes" comment="프로그램 종료 문구 출력">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycom/word/WordCRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycom/word/WordCRUD.java" afterDir="false" />
+    <list default="true" id="a57f8bc5-662c-470b-a90c-e1fbd6e43d23" name="Changes" comment="문구 띄어쓰기">
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mycom/word/WordManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycom/word/WordManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -168,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662552071710</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="문구 띄어쓰기">
+      <created>1662552185016</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1662552185016</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -193,7 +198,8 @@
     <MESSAGE value="CRUD1 마무리" />
     <MESSAGE value="gitignore 수정" />
     <MESSAGE value="프로그램 종료 문구 출력" />
-    <option name="LAST_COMMIT_MESSAGE" value="프로그램 종료 문구 출력" />
+    <MESSAGE value="문구 띄어쓰기" />
+    <option name="LAST_COMMIT_MESSAGE" value="문구 띄어쓰기" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
