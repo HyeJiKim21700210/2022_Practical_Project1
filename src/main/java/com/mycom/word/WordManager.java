@@ -37,7 +37,7 @@ public class WordManager {
             }
 
             if(menu ==4){
-                wordCRUD.addWord();
+                wordCRUD.addItem();
             }
             else if(menu == 1){
                 wordCRUD.listAll();
@@ -49,10 +49,12 @@ public class WordManager {
                 //search
             }
             else if(menu == 5){
-                //
+                //update
+                wordCRUD.updateItem();
             }
             else if(menu == 6){
                 //remove
+                wordCRUD.deleteItem();
             }
 
         }
