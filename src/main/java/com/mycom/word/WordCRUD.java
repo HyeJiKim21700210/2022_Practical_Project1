@@ -9,7 +9,7 @@ import java.util.Scanner;
 public class WordCRUD implements ICRUD{
     ArrayList<Word> list;
     Scanner s;
-    final String fname = "Dictionary.txt";
+    final String file_name = "Dictionary.txt";
     WordCRUD(Scanner s){
         list = new ArrayList<>();
         this.s = s;
@@ -100,7 +100,7 @@ public class WordCRUD implements ICRUD{
     }
     public void loadFile(){
         try {
-            BufferedReader br = new BufferedReader(new FileReader(fname));
+            BufferedReader br = new BufferedReader(new FileReader(file_name));
             String line;
             int count = 0;
             while(true) {

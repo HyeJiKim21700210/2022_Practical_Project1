@@ -1,0 +1,16 @@
+3|superintendent|관리자, 감독관
+1|electric|전기의, 전기를 생산하는
+2|equipment|장비, 용품
+1|pole|기둥, 장대
+1|well|잘, 아주
+2|implement|시행하다
+3|euthanize|안락사시키다
+1|present|현재의, 있는
+1|vehicle|탈, 수단
+2|presume|추정하다, 간주하다, 상정하다
+2|earnestly|진지하게
+3|eukaryote|진핵세포
+1|oppose|반대하다, 겨루다
+1|fate|운명
+3|gourmet|미식가
+3|epicure|식도락

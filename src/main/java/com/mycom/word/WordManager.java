@@ -50,7 +50,7 @@ public class WordManager {
             else if(menu == 3){
                 wordCRUD.selectOne();
             }
-            else if(menu == 5)
+            else if(menu == 5){
                 wordCRUD.updateItem();
             }
             else if(menu == 6){
