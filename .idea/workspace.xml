@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a57f8bc5-662c-470b-a90c-e1fbd6e43d23" name="Changes" comment="타이틀 수정">
+    <list default="true" id="a57f8bc5-662c-470b-a90c-e1fbd6e43d23" name="Changes" comment="add update n delete">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mycom/word/ICRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycom/word/ICRUD.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mycom/word/WordCRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycom/word/WordCRUD.java" afterDir="false" />
@@ -183,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662552414839</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="add update n delete">
+      <created>1663050770213</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1663050770213</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -210,7 +217,8 @@
     <MESSAGE value="프로그램 종료 문구 출력" />
     <MESSAGE value="문구 띄어쓰기" />
     <MESSAGE value="타이틀 수정" />
-    <option name="LAST_COMMIT_MESSAGE" value="타이틀 수정" />
+    <MESSAGE value="add update n delete" />
+    <option name="LAST_COMMIT_MESSAGE" value="add update n delete" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

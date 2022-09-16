@@ -28,6 +28,8 @@ public class WordManager {
     }
 
     public void start() {
+
+        wordCRUD.loadFile();
         System.out.println("*** 영단어 마스터 ***\n");
         while(true) {
             int menu = selectMenu();
@@ -43,19 +45,22 @@ public class WordManager {
                 wordCRUD.listAll();
             }
             else if (menu == 2) {
-                //level list
+
             }
             else if(menu == 3){
-                //search
+                wordCRUD.selectOne();
             }
-            else if(menu == 5){
-                //update
+            else if(menu == 5)
                 wordCRUD.updateItem();
             }
             else if(menu == 6){
-                //remove
                 wordCRUD.deleteItem();
             }
+            else if(menu == 7){
+
+            }
+            else
+                System.out.println("다시 입력해주세요");
 
         }
     }
