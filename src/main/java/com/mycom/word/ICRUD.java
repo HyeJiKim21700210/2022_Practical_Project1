@@ -4,5 +4,5 @@ public interface ICRUD {
     public Object add();
     public void updateItem();
     public void deleteItem();
-    public void selectOne();
+    public void searchOne();
 }

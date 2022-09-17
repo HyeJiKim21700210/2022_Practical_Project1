@@ -29,15 +29,13 @@ public class WordCRUD implements ICRUD{
         System.out.println("\n새 단어가 단어장에 추가되었습니다. \n");
 
     }
-
-    public void listAll(){
-        System.out.println("----------------------------------");
-        for(int i =0; i < list.size();i++){
-            System.out.print((i+1)+" ");
-            System.out.println(list.get(i).toString());
-        }
-        System.out.println("----------------------------------\n");
+    public void searchLevel(){
+        System.out.print("=> 원하는 레벨은? (1~3) ");
+        int level = s.nextInt();
+        listAll(level);
     }
+
+
 
     public ArrayList<Integer> listAll(String keyword){
         ArrayList<Integer> idList = new ArrayList<>();
@@ -53,6 +51,28 @@ public class WordCRUD implements ICRUD{
         }
         System.out.println("----------------------------------\n");
         return idList;
+    }
+    public void listAll(){
+        System.out.println("----------------------------------");
+        for(int i =0; i < list.size();i++){
+            System.out.print((i+1)+" ");
+            System.out.println(list.get(i).toString());
+        }
+        System.out.println("----------------------------------\n");
+    }
+
+    public void listAll(int level){
+        int j = 0;
+        System.out.println("----------------------------------");
+        for(int i =0; i < list.size();i++){
+            int ilevel = list.get(i).getLevel();
+            if(ilevel != level) continue;
+            System.out.print((j+1)+" ");
+            System.out.println(list.get(i).toString());
+            j++;
+
+        }
+        System.out.println("----------------------------------\n");
     }
     @Override
     public void updateItem() {
@@ -90,11 +110,10 @@ public class WordCRUD implements ICRUD{
 
     }
 
-    @Override
-    public void selectOne() {
+    public void searchOne() {
         System.out.print("=> 검색할 단어 입력 : ");
         String keyword = s.next();
-        ArrayList<Integer> idList = this.listAll(keyword);
+        listAll(keyword);
 
     }
     public void loadFile(){

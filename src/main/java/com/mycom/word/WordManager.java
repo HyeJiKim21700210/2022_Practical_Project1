@@ -1,6 +1,5 @@
 package com.mycom.word;
 
-import java.io.IOException;
 import java.util.Scanner;
 
 //ui
@@ -42,10 +41,10 @@ public class WordManager {
                 wordCRUD.listAll();
             }
             else if (menu == 2) {
-
+                wordCRUD.searchLevel();
             }
             else if(menu == 3){
-                wordCRUD.selectOne();
+                wordCRUD.searchOne();
             }
             else if(menu ==4){
                 wordCRUD.addItem();
