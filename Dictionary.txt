@@ -11,6 +11,6 @@
 2|earnestly|진지하게
 3|eukaryote|진핵세포
 1|oppose|반대하다, 겨루다
-1|fate|운명
-3|gourmet|미식가
 3|epicure|식도락
+2| disgraceful|수치스럽다
+2| migraine|편두통
