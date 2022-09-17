@@ -15,11 +15,10 @@ public class WordCRUD implements ICRUD{
     @Override
     public Object add() {
         System.out.print("\n=> 난이도(1,2,3) & 새 단어 입력 : ");
-        String level1 = s. next();
-        int level = Integer.parseInt(level1);
+        int level = s.nextInt();
 
         String word = s.nextLine();
-
+        word = word.trim();
         System.out.print("뜻 입력 : ");
         String meaning = s.nextLine();
         return new Word(0, level, word, meaning);
