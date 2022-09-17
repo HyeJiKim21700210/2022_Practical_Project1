@@ -17,8 +17,8 @@
 ### [3. 단어 검색]
 ![캡쳐6](screenshots/3.단어검색.png)
 ### [5. 단어 수정]
-![캡쳐7](screenshots/5.단어수정.png)
-![캡쳐8](screenshots/5.단어수정_2.png)
+![캡쳐7](screenshots/5.단어수정.png)
+![캡쳐8](screenshots/5.단어수정_2.pngg)
 ### [6. 단어 삭제]
 ![캡쳐9](screenshots/6.단어삭제.png)
 ### [7. 파일 저장]
@@ -26,5 +26,5 @@
 ### 저장된 파일 경로 및 파일 이름
 ![캡쳐11](screenshots/위치경로.png)
 ### 파일 load 및 [1. 모든 단어보기]
-![캡쳐12](screenshots/파일로드.png)
+![캡쳐12](screenshots/파일로드.png)
 
