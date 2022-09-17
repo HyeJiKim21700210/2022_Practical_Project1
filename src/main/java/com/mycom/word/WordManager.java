@@ -1,5 +1,6 @@
 package com.mycom.word;
 
+import java.io.IOException;
 import java.util.Scanner;
 
 //ui
@@ -30,16 +31,12 @@ public class WordManager {
     public void start() {
 
         wordCRUD.loadFile();
-        System.out.println("*** 영단어 마스터 ***\n");
+        System.out.print("*** 영단어 마스터 ***\n");
         while(true) {
             int menu = selectMenu();
             if(menu == 0) {
                 System.out.println("프로그램 종료! 다음에 만나요~");
                 break;
-            }
-
-            if(menu ==4){
-                wordCRUD.addItem();
             }
             else if(menu == 1){
                 wordCRUD.listAll();
@@ -50,6 +47,9 @@ public class WordManager {
             else if(menu == 3){
                 wordCRUD.selectOne();
             }
+            else if(menu ==4){
+                wordCRUD.addItem();
+            }
             else if(menu == 5){
                 wordCRUD.updateItem();
             }
@@ -57,7 +57,7 @@ public class WordManager {
                 wordCRUD.deleteItem();
             }
             else if(menu == 7){
-
+                wordCRUD.saveItem();
             }
             else
                 System.out.println("다시 입력해주세요");
