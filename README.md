@@ -24,7 +24,7 @@
 ### [7. 파일 저장]
 ![캡쳐10](screenshots/7.데이터저장.png)
 ### 저장된 파일 경로 및 파일 이름
-![캡쳐11](screenshots/위치경로.png)
+![캡쳐11](screenshots/위치경로.png)
 ### 파일 load 및 [1. 모든 단어보기]
 ![캡쳐12](screenshots/파일로드.png)
 
