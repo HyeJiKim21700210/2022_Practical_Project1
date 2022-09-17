@@ -12,5 +12,6 @@
 3|eukaryote|진핵세포
 1|oppose|반대하다, 겨루다
 3|epicure|식도락
-2| disgraceful|수치스럽다
-2| migraine|편두통
+2|disgraceful|수치스럽다
+2|migraine|편두통
+1|happy|행복한

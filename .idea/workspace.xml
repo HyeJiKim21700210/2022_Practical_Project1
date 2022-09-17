@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a57f8bc5-662c-470b-a90c-e1fbd6e43d23" name="Changes" comment="단어 수정">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycom/word/WordCRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycom/word/WordCRUD.java" afterDir="false" />
+    <list default="true" id="a57f8bc5-662c-470b-a90c-e1fbd6e43d23" name="Changes" comment="영어 공백 수정">
+      <change beforePath="$PROJECT_DIR$/Dictionary.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Dictionary.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -211,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663387187516</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="영어 공백 수정">
+      <created>1663387300487</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1663387300487</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -243,7 +249,8 @@
     <MESSAGE value="단어 파일 저장시 생기는 형식 오류 변경" />
     <MESSAGE value="2,3번 완료" />
     <MESSAGE value="단어 수정" />
-    <option name="LAST_COMMIT_MESSAGE" value="단어 수정" />
+    <MESSAGE value="영어 공백 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="영어 공백 수정" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
